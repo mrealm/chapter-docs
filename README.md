@@ -1,2 +1,2 @@
-chapter-docs
+Beta Epsilon Chapter Docs
 ============
