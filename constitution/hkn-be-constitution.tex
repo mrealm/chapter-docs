@@ -1,0 +1,34 @@
+\documentclass[constitution,final,withoutpreface,withoutoptional,11pt]{../bylaws}
+\usepackage[color]{changebar}
+\usepackage{hyperref}
+\usepackage{mathpazo}
+\usepackage{xspace}
+\usepackage{url}
+\organization{Eta Kappa Nu -- Beta Epsilon Chapter}
+\orglogo{../HKNcrest}
+\adoptiondate{26 January 2015}
+%\chapteramendmentdate{20 February 2015}
+\newcommand{\hkn}{HKN }
+
+\begin{document}
+\cbcolor{red}
+\frontmatter
+\maketitle
+\setcounter{tocdepth}{0}
+\tableofcontents
+\newpage
+\mainmatter
+\chapter*{Preface}\addcontentsline{toc}{chapter}{Preface}
+The key words ``MUST'', ``MUST NOT'', ``REQUIRED'', ``SHALL'', ``SHALL NOT'', ``SHOULD'', ``SHOULD NOT'', ``RECOMMENDED'',  ``MAY'', and ``OPTIONAL'' in this and any subordinate documents are to be interpreted as described in \href{http://www.ietf.org/rfc/rfc2119.txt}{RFC 2119}.
+\input{charter.tex}
+\input{objective.tex}
+\input{bylaws.tex}
+\input{membership.tex} % Includes all types of membership, candidates, and officers
+\input{advisors.tex}
+\input{trustees.tex}
+\input{compliance.tex}
+
+\input{amendments.tex}
+
+
+\end{document}
